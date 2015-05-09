@@ -29,7 +29,16 @@ gulp.task('default', function () {
 
 ## API
 
-### rev()
+### rev([options])
+
+#### options
+
+##### forceRev
+
+Type: `string`  
+Default: `undefined`
+
+Instead of computing a hash of the file contents, use a fixed string a the revision. This is useful during development so that builds are faster and file names are stable (for setting breakpoints).
 
 ### rev.manifest([path], [options])
 

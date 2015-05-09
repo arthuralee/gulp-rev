@@ -19,6 +19,21 @@ it('should rev files', function (cb) {
 	}));
 });
 
+it('should use the forceRev option', function (cb) {
+	var stream = rev({forceRev: 'dev'});
+
+	stream.on('data', function (file) {
+		assert.equal(file.path, 'unicorn-dev.css');
+		assert.equal(file.revOrigPath, 'unicorn.css');
+		cb();
+	});
+
+	stream.write(new gutil.File({
+		path: 'unicorn.css',
+		contents: new Buffer('')
+	}));
+});
+
 it('should build a rev manifest file', function (cb) {
 	var stream = rev.manifest();
 
