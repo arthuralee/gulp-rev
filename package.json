@@ -1,15 +1,20 @@
 {
-  "name": "gulp-rev",
+  "name": "gulp-rev-forcerev",
   "version": "3.0.1",
-  "description": "Static asset revisioning by appending content hash to filenames: unicorn.css => unicorn-098f6bcd.css",
+  "description": "Static asset revisioning by appending content hash to filenames: unicorn.css => unicorn-098f6bcd.css. Added forceRev option in this fork.",
   "license": "MIT",
-  "repository": "sindresorhus/gulp-rev",
+  "repository": "pinterest-web/gulp-rev",
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
+    "name": "Pinterest Web",
+    "email": "about@pinterest.com",
+    "url": "engineering.pinterest.com"
   },
-  "maintainers": [
+  "contributors": [
+    {
+      "name": "Sindre Sorhus",
+      "email": "sindresorhus@gmail.com",
+      "url": "http://sindresorhus.com"
+    },
     {
       "name": "Justin Hileman",
       "email": "justin@justinhileman.info",
