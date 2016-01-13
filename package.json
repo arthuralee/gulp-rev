@@ -1,6 +1,6 @@
 {
   "name": "gulp-rev-forcerev",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Static asset revisioning by appending content hash to filenames: unicorn.css => unicorn-098f6bcd.css. Added forceRev option in this fork.",
   "license": "MIT",
   "repository": "pinterest-web/gulp-rev",
